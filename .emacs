@@ -1,12 +1,14 @@
 ;; ----- window management ----
 
 ;; -- the simplest that I found - works with 1 layout only but works!
+;; AS - below is actually NOT necessary - there are desktop-xxxx commands
+;; which are part of standard emacs distribution.
 
-(add-to-list 'load-path "~/asshared/.emacs.d/elpa/layout-restore-0.4")
-(require 'layout-restore)
-(global-set-key [?\C-c ?l] 'layout-save-current)
-(global-set-key [?\C-c ?\C-l ?\C-l] 'layout-restore)
-(global-set-key [?\C-c ?\C-l ?\C-c] 'layout-delete-current)
+;; (add-to-list 'load-path "~/asshared/.emacs.d/elpa/layout-restore-0.4")
+;; (require 'layout-restore)
+;; (global-set-key [?\C-c ?l] 'layout-save-current)
+;; (global-set-key [?\C-c ?\C-l ?\C-l] 'layout-restore)
+;; (global-set-key [?\C-c ?\C-l ?\C-c] 'layout-delete-current)
 
 
 ;;------------------------org mode ----------------------------------
