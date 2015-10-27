@@ -1,0 +1,414 @@
+((("Server" .
+   [1 0 0 0 0 0])
+  ("machines" .
+   [1 0 0 0 0 0 0 0])
+  ("after" .
+   [1 0 0 0 0])
+  ("OS-X" .
+   [1 0 0 0])
+  ("in" .
+   [1 0])
+  ("commands" .
+   [1 0 0 0 0 0 0 0])
+  ("is" .
+   [1 0])
+  ("for" .
+   [1 0 0])
+  ("password" .
+   [1 0 0 0 0 0 0 0])
+  ("and" .
+   [1 0 0])
+  ("Key" .
+   [1 0 0])
+  ("config" .
+   [1 0 0 0 0 0])
+  ("as" .
+   [2 0])
+  ("example" .
+   [1 0 0 0 0 0 0])
+  ("SSH" .
+   [1 0 0])
+  ("+END_QUOTE" .
+   [0 0 1 0 0 0 0 0 0 0])
+  ("+BEGIN_QUOTE" .
+   [0 0 0 1 0 0 0 0 0 0 0 0])
+  ("RawKey" .
+   [0 0 0 0 1 0])
+  ("asdqwe_access_secret" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("SequenceNo" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("term" .
+   [1 0 0 0])
+  ("SequenceRestored" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("Sequence" .
+   [0 0 0 0 1 0 0 0])
+  ("pal" .
+   [5 0 0])
+  ("binary_to_term" .
+   [0 0 0 0 0 0 0 1 0 2 0 0 0 0])
+  ("TokenType" .
+   [5 0 0 0 0 0 1 1 0])
+  ("generate_refresh_token_body" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("get_expiry_date_from_config" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ExpiryDateTime" .
+   [4 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("Expiry" .
+   [3 0 0 0 0 0])
+  ("generate_access_token_body" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("UserRefreshTokenParams" .
+   [0 0 0 0 1 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Type" .
+   [5 0 0 0])
+  ("sequence_no" .
+   [1 0 0 0 0 0 1 0 0 0 0])
+  ("user_jid" .
+   [2 0 0 0 0 1 0 0])
+  ("user" .
+   [1 0 0 0])
+  ("DateTime" .
+   [1 0 0 0 0 0 0 0])
+  ("refresh" .
+   [5 0 0 0 0 0 0])
+  ("access" .
+   [8 0 0 0 0 0])
+  ("token_type" .
+   [1 0 0 0 0 0 1 0 0 0])
+  ("type" .
+   [6 0 0 0])
+  ("TokenBody" .
+   [2 0 0 0 0 0 0 2 0])
+  ("token_body_split" .
+   [0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0])
+  ("From" .
+   [2 0 0 0])
+  ("create_token_response" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Ns" .
+   [1 0])
+  ("n" .
+   [2])
+  ("en" .
+   [1 0])
+  ("name" .
+   [1 0 0 0])
+  ("IQ" .
+   [1 0])
+  ("Bib" .
+   [2 0 0])
+  ("value" .
+   [1 0 0 0 0])
+  ("bubu" .
+   [2 0 0 0])
+  ("NS_AUTH_TOKEN" .
+   [0 0 0 0 1 1 0 0 0 0 0 0 0])
+  ("attrs" .
+   [1 0 0 0 0])
+  ("x" .
+   [1])
+  ("xmlel" .
+   [2 0 0 0 0])
+  ("Item" .
+   [3 0 0 0])
+  ("SubEl" .
+   [3 0 0 0 2])
+  ("get_subtag" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("xml" .
+   [1 0 0])
+  ("start" .
+   [1 0 0 0 0])
+  ("ierst" .
+   [0 0 1 0 0])
+  ("DummyTokenMac" .
+   [0 0 0 0 1 1 0 0 0 0 0 0 0])
+  ("token_mac_split" .
+   [0 0 0 0 0 0 0 0 0 2 0 0 0 0 0])
+  ("header" .
+   [1 0 0 0 0 0])
+  ("droplast" .
+   [0 0 0 0 1 0 0 0])
+  ("t" .
+   [2])
+  ("lists" .
+   [8 0 0 0 0])
+  ("false" .
+   [2 0 0 0 0])
+  ("true" .
+   [14 0 0 0])
+  ("Check" .
+   [2 0 0 0 0])
+  ("Tok" .
+   [1 0 0])
+  ("ct" .
+   [6 0])
+  ("Elems" .
+   [5 0 0 0 0])
+  ("DummyMAC" .
+   [1 0 0 0 0 1 0 0])
+  ("DummyToken" .
+   [1 0 0 1 1 0 0 0 0 0])
+  ("token_mac_concat_test" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("global" .
+   [1 0 0 0 0 0])
+  ("split" .
+   [2 0 1 0 0])
+  ("MAC" .
+   [13 0 1])
+  ("R" .
+   [1])
+  ("RequesterUser" .
+   [0 0 3 0 1 0 1 0 0 0 0 0 0])
+  ("Algo" .
+   [1 0 0 0])
+  ("mod_auth_token" .
+   [1 0 0 0 1 0 1 8 1 0 0 0 0 0])
+  ("raw_access_token_test" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("bark" .
+   [1 0 0 0])
+  ("mock_keystore" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("local_time" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("calendar" .
+   [2 0 0 0 0 0 0 0])
+  ("S" .
+   [1])
+  ("TokTokens" .
+   [2 0 0 0 0 0 0 0 0])
+  ("DecodedToken" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("Res" .
+   [10 0 0])
+  ("UserAccessTokenParams" .
+   [0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("io" .
+   [6 0])
+  ("MacRefresh" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("RefreshTokenMac" .
+   [1 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("AccessTokenMac" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("MacAccess" .
+   [1 0 0 0 0 0 0 0 0])
+  ("concat_token_mac" .
+   [0 0 1 2 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("TokenRaw" .
+   [1 0 0 0 0 1 0 0])
+  ("is_binary" .
+   [0 0 1 1 0 1 1 0 0])
+  ("decode_from_transport" .
+   [0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("encode_for_transport" .
+   [0 0 0 1 1 0 3 1 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("Data" .
+   [3 0 0 0])
+  ("Mac" .
+   [14 0 0])
+  ("get_token_mac" .
+   [0 0 0 0 0 0 1 0 0 1 0 0 0])
+  ("decode_token" .
+   [0 0 0 1 0 0 0 0 0 0 0 0])
+  ("Halgo" .
+   [2 0 0 0 0])
+  ("get_hash_algorithm" .
+   [0 0 0 0 0 3 0 2 0 0 0 0 0 0 0 0 0 0])
+  ("encode_token" .
+   [0 0 0 0 0 0 0 2 0 0 0 0])
+  ("Token" .
+   [27 0 1 0 0])
+  ("RefreshToken" .
+   [0 0 0 1 0 0 0 0 0 0 0 0])
+  ("AccessToken" .
+   [0 0 1 2 0 0 0 0 0 0 0])
+  ("generate_refresh_token" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Refresh" .
+   [3 0 0 0 0 0 0])
+  ("generate_token" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("assemble_token_from_params" .
+   [0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("assemble" .
+   [1 0 0 0 0 0 1 0])
+  ("HashAlgorithm" .
+   [0 0 0 4 3 0 0 0 0 0 0 0 0])
+  ("sha384" .
+   [2 0 1 2 1 1])
+  ("SignedRefreshTokenEncoded" .
+   [0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("hmac" .
+   [1 0 0 0])
+  ("Method" .
+   [1 0 0 0 0 0])
+  ("RawRefreshToken" .
+   [0 0 0 2 2 0 0 0 0 0 0 0 0 0 0])
+  ("Raw" .
+   [4 0 0])
+  ("SeqNo" .
+   [7 0 0 3 0])
+  ("SignedAccessTokenEncoded" .
+   [0 0 0 0 0 1 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("encode" .
+   [3 0 0 0 0 1])
+  ("base64" .
+   [0 0 0 0 2 0])
+  ("SignedAccessToken" .
+   [0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("sign_token" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("RawAccessToken" .
+   [1 0 0 5 0 0 0 0 0 1 0 0 0 0])
+  ("get_token_expiry_date" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Seq" .
+   [3 0 0])
+  ("expiry" .
+   [1 0 0 0 0 0])
+  ("ExpiryDate" .
+   [0 0 7 2 3 0 1 0 0 0])
+  ("UserTokenParams" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("generate_access_token" .
+   [0 0 0 0 2 0 0 0 1 0 1 0 0 0 0 1 0 0 0 0 0])
+  ("Sum" .
+   [1 0 0])
+  ("TokenParams" .
+   [2 0 0 0 0 1 0 0 0 0 0])
+  ("generate_access_token_raw" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("User" .
+   [15 0 0 0])
+  ("acquire_key_for_user" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("get_user_params" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("generate_refresh_token_raw/2" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Pi" .
+   [1 0])
+  ("process_info" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("c" .
+   [2])
+  ("DestinationNode" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("init" .
+   [3 0 0 0])
+  ("format" .
+   [9 0 0 1 2 0])
+  ("init/0" .
+   [0 0 0 0 1 0])
+  ("spawn" .
+   [0 0 0 1 0])
+  ("fun" .
+   [1 0 0])
+  ("end" .
+   [1 0 0])
+  ("P" .
+   [1])
+  ("jlib" .
+   [1 0 0 1])
+  ("gen_mod" .
+   [1 0 0 0 0 0 0])
+  ("UserBareJid" .
+   [0 0 0 1 1 2 1 0 0 0 0])
+  ("KeyBin" .
+   [0 0 0 2 0 0])
+  ("SecretKey" .
+   [1 0 1 3 0 0 0 0 0])
+  ("create_sample_access_token_body" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("create_hmac_signature" .
+   [0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("MACReceived" .
+   [0 0 0 3 1 0 0 0 0 0 0])
+  ("TokenReceived" .
+   [0 0 1 0 0 2 2 0 0 0 0 0 0])
+  ("MACforCheck" .
+   [0 0 0 2 0 0 0 0 0 0 0])
+  ("token_split" .
+   [0 0 0 0 0 2 0 0 0 0 0])
+  ("TokenParts" .
+   [3 0 0 0 0 1 0 2 0 0])
+  ("TokenWithMAC" .
+   [0 0 0 0 0 0 2 0 0 0 0 0])
+  ("binar" .
+   [4 0 0 0 0])
+  ("seconds_to_datetime" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("UserFromToken" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("ExpiryFromToken" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("ExpiryDateBinary" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("ExpiryDateTerm" .
+   [0 0 0 0 0 2 5 0 0 0 0 0 0 0])
+  ("nth" .
+   [3 0 0])
+  ("token" .
+   [4 0 0 0 0])
+  ("MA" .
+   [1 0])
+  ("spec" .
+   [2 0 0 0])
+  ("any" .
+   [1 0 0])
+  ("mac" .
+   [1 0 0])
+  ("test" .
+   [1 0 0 0])
+  ("package_token_token_test" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("auth_token" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("get_token_as_record" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("TokenData" .
+   [2 0 0 0 0 0 0 0 0])
+  ("split_token" .
+   [0 0 0 1 0 0 0 0 0 0 0])
+  ("TokenDecoded" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("TokenRecvd" .
+   [0 0 0 0 0 0 0 0 1 0])
+  ("a" .
+   [1])
+  ("TokenIn" .
+   [1 0 0 0 0 0 0])
+  ("expiry_datetime" .
+   [1 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("TokenExpiryDatetime" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("mac_signature" .
+   [0 0 0 0 2 0 0 0 0 0 0 0 0])
+  ("token_body" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("MacNew" .
+   [3 0 0 0 0 0])
+  ("Name" .
+   [2 0 0 0])
+  ("nameprep" .
+   [0 0 0 0 0 0 0 1])
+  ("TokenOwnerUser" .
+   [0 0 0 0 0 0 1 0 0 1 0 0 0 0])
+  ("get_username_from_jid" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Config" .
+   [1 0 0 0 1 0])
+  ("token_login" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("token_revocation" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("request_tokens_test" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("DEBUG" .
+   [2 0 0 0 0])))

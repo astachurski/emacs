@@ -1,0 +1,135 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("mod_auth_token_odbc.erl"
+ (filename . "~/newdev/MongooseIM/apps/ejabberd/src/mod_auth_token_odbc.erl")
+ (front-context-string . "\n-include(\"jlib.")
+ (rear-context-string . "    revoke/1]).\n")
+ (position . 119))
+("mimrel"
+ (filename . "~/newdev/MongooseIM/dev/mongooseim_node1/")
+ (front-context-string . "lib\n  drwxr-xr-x")
+ (rear-context-string . "10 Sep 29 17:59 ")
+ (position . 833))
+("MAC downloads"
+ (filename . "~/Downloads/")
+ (front-context-string . ".localized\n  -rw")
+ (rear-context-string . " 0 Aug 28 11:26 ")
+ (position . 370))
+("MAC iCloud home"
+ (filename . "~/Library/Mobile Documents/com~apple~CloudDocs/")
+ (front-context-string . ".DS_Store\n  -rw-")
+ (rear-context-string . "96 Sep 22 09:50 ")
+ (position . 310))
+("ejabberd.cfg"
+ (filename . "~/newdev/MongooseIM/rel/files/ejabberd.cfg")
+ (front-context-string . "  %% No custom s")
+ (rear-context-string . " conversations.\n")
+ (position . 21615))
+("jlib.erl"
+ (filename . "~/newdev/MongooseIM/apps/ejabberd/src/")
+ (front-context-string . "\n    binary_to_j")
+ (rear-context-string . "/binary>>, N) ->")
+ (position . 11680))
+("mod auth token.hrl"
+ (filename . "~/newdev/MongooseIM/apps/ejabberd/src/mod_auth_token.hrl")
+ (front-context-string . "                ")
+ (rear-context-string . "<>> :: binary()\n")
+ (position . 349))
+("cyrsasl_oauth.erl"
+ (filename . "~/newdev/MongooseIM/apps/ejabberd/src/cyrsasl_oauth.erl")
+ (front-context-string . "\n-behaviour(cyrs")
+ (rear-context-string . "p/2, parse/1]).\n")
+ (position . 139))
+(".emacs"
+ (filename . "~/.emacs")
+ (front-context-string . ";; Standard key ")
+ (rear-context-string . "--------------\n\n")
+ (position . 72))
+("escalus_story.erl"
+ (filename . "~/newdev/ejabberd_tests/deps/escalus/src/")
+ (front-context-string . "        escalus_")
+ (rear-context-string . "tory, Clients),\n")
+ (position . 1541))
+("escalus_connection.erl"
+ (filename . "~/newdev/ejabberd_tests/deps/escalus/src/")
+ (front-context-string . "%%% @doc Module ")
+ (rear-context-string . " Solutions Ltd.\n")
+ (position . 124))
+("test.config"
+ (filename . "~/newdev/ejabberd_tests/")
+ (front-context-string . "{ejabberd_node, ")
+ (rear-context-string . "berd/MongooseIM\n")
+ (position . 142))
+("cyrsasl_plain.erl"
+ (filename . "~/newdev/MongooseIM/apps/ejabberd/src/")
+ (front-context-string . "_ ->\n           ")
+ (rear-context-string . "   end;\n        ")
+ (position . 2371))
+("ejabberd_c2s.erl"
+ (filename . "~/newdev/MongooseIM/apps/ejabberd/src/")
+ (front-context-string . "    ejabberd_rou")
+ (rear-context-string . "l(PrivPushIQ)),\n")
+ (position . 102749))
+("cyrsasl.erl"
+ (filename . "~/newdev/MongooseIM/apps/ejabberd/src/cyrsasl.erl")
+ (front-context-string . "                ")
+ (rear-context-string . "ate :: tuple(),\n")
+ (position . 3498))
+("escalus_stanza.erl"
+ (filename . "~/newdev/ejabberd_tests/deps/escalus/src/escalus_stanza.erl")
+ (front-context-string . "auth(Mechanism) ")
+ (rear-context-string . ")) -> #xmlel{}.\n")
+ (position . 18523))
+("escalus_auth.erl"
+ (filename . "~/newdev/ejabberd_tests/deps/escalus/src/escalus_auth.erl")
+ (front-context-string . "\n            ok;")
+ (rear-context-string . "<<\"success\">> ->")
+ (position . 7877))
+("escalus session get_stream_features"
+ (filename . "~/newdev/ejabberd_tests/deps/escalus/src/")
+ (front-context-string . "    [{compressio")
+ (rear-context-string . "es(Features) ->\n")
+ (position . 10744))
+("escalus sources"
+ (filename . "~/newdev/ejabberd_tests/deps/escalus/src/")
+ (front-context-string . "escalus.app.src\n")
+ (rear-context-string . "45 Sep 10 09:33 ")
+ (position . 372))
+("oauth_SUITE @ ejabberd_tests"
+ (filename . "~/newdev/ejabberd_tests/tests/oauth_SUITE.erl")
+ (front-context-string . "end_per_testcase")
+ (rear-context-string . "ame, Config0).\n\n")
+ (position . 2166))
+("tokentest"
+ (filename . "~/newdev/MongooseIM/apps/ejabberd/test/")
+ (front-context-string . "    meck:expect(")
+ (rear-context-string . " [non_strict]),\n")
+ (position . 1268))
+("ejabberd tests ROOT"
+ (filename . "~/newdev/ejabberd_tests/")
+ (front-context-string . ".git\n  -rw-r--r-")
+ (rear-context-string . "44 Sep 25 11:23 ")
+ (position . 364))
+("ejabberd (MongooseIM) ROOT"
+ (filename . "~/newdev/MongooseIM/apps/ejabberd/")
+ (front-context-string . "src\n  drwxr-xr-x")
+ (rear-context-string . "54 Sep 18 10:01 ")
+ (position . 993))
+("ORG home"
+ (filename . "~/org/")
+ (front-context-string . "erlang.org\n  -rw")
+ (rear-context-string . "29 Sep 18 10:58 ")
+ (position . 642))
+("keystore_suite.erl"
+ (filename . "~/newdev/MongooseIM/apps/ejabberd/test/keystore_SUITE.erl")
+ (front-context-string . "    {ok, _} = ap")
+ (rear-context-string . "   xml:start(),\n")
+ (position . 331))
+("mod auth token.erl"
+ (filename . "~/newdev/MongooseIM/apps/ejabberd/src/mod_auth_token.erl")
+ (front-context-string . "-behavior(gen_mo")
+ (rear-context-string . "d_auth_token).\n\n")
+ (position . 27))
+)
