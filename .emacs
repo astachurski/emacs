@@ -13,14 +13,16 @@
 
 ;;------------------------org mode ----------------------------------
 
+(setq backup-directory-alist `(("." . "~/org/emacs.org.backups")))
+
 ;; Standard key bindings
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cb" 'org-iswitchb)
 
-(defun shk-fix-inline-images ()
-  (when org-inline-image-overlays
-    (org-redisplay-inline-images)))
+;(defun shk-fix-inline-images ()
+;  (when org-inline-image-overlays
+;    (org-redisplay-inline-images)))
 
 (setq org-ditaa-jar-path "~/asshared/emacs addons/ditaa0_9/ditaa0_9.jar")
 (setq org-plantuml-jar-path "~/asshared/emacs addons/plantuml.jar")
@@ -40,11 +42,9 @@
  (quote ((emacs-lisp . t)
          (dot . t)
          (ditaa . t)
-         (R . t)
          (python . t)
          (ruby . t)
          (gnuplot . t)
-         (clojure . t)
          (sh . t)
          (org . t)
          (plantuml . t)
@@ -190,9 +190,9 @@
 (global-set-key (kbd "C-c SPC") 'avy-goto-word-or-subword-1)
 
 ;; AS When org-mode starts it (org-mode-map) overrides the ace-jump-mode - this is a remedy
- (add-hook 'org-mode-hook
-           (lambda ()
-             (local-set-key (kbd "\C-c SPC") 'avy-goto-word-or-subword-1)))
+(add-hook 'org-mode-hook
+	  (lambda ()
+	    (local-set-key (kbd "\C-c SPC") 'avy-goto-word-or-subword-1)))
 
 
 ; ----------------------------------- jump mode end -----------------------
@@ -206,7 +206,10 @@
    [default default default italic underline success warning error])
  '(ansi-color-names-vector
    ["#212526" "#ff4b4b" "#b4fa70" "#fce94f" "#729fcf" "#e090d7" "#8cc4ff" "#eeeeec"])
- '(custom-enabled-themes (quote (deeper-blue)))
+ '(custom-enabled-themes (quote (leuven)))
+ '(org-agenda-files
+   (quote
+    ("~/org/gocd.org" "~/org/expenses.org" "~/org/video_project.org" "~/org/concepts.org")))
  '(send-mail-function (quote smtpmail-send-it))
  '(smtpmail-smtp-server "smtp.gmail.com")
  '(smtpmail-smtp-service 25))
