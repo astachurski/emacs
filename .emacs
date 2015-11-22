@@ -10,6 +10,10 @@
 ;; (global-set-key [?\C-c ?\C-l ?\C-l] 'layout-restore)
 ;; (global-set-key [?\C-c ?\C-l ?\C-c] 'layout-delete-current)
 
+;; ------------------------ C / Cpp mode -------------------
+
+(add-hook 'c-mode-common-hook 'auto-complete-mode)
+
 
 ;;------------------------org mode ----------------------------------
 
@@ -58,6 +62,7 @@
 ; Use fundamental mode when editing plantuml blocks with C-c '
 (add-to-list 'org-src-lang-modes (quote ("plantuml" . fundamental)))
 
+(add-hook 'org-mode-hook 'auto-complete-mode)
 
 
 ;;----------------------- erlang environment settings start ----------
@@ -207,6 +212,19 @@
  '(ansi-color-names-vector
    ["#212526" "#ff4b4b" "#b4fa70" "#fce94f" "#729fcf" "#e090d7" "#8cc4ff" "#eeeeec"])
  '(custom-enabled-themes (quote (leuven)))
+ '(flymake-allowed-file-name-masks
+   (quote
+    (("\\.\\(?:c\\(?:pp\\|xx\\|\\+\\+\\)?\\|CC\\)\\'" flymake-simple-make-init nil nil)
+     ("\\.xml\\'" flymake-xml-init nil nil)
+     ("\\.html?\\'" flymake-xml-init nil nil)
+     ("\\.cs\\'" flymake-simple-make-init nil nil)
+     ("\\.p[ml]\\'" flymake-perl-init nil nil)
+     ("\\.php[345]?\\'" flymake-php-init nil nil)
+     ("\\.h\\'" flymake-master-make-header-init flymake-master-cleanup nil)
+     ("\\.java\\'" flymake-simple-make-java-init flymake-simple-java-cleanup nil)
+     ("[0-9]+\\.tex\\'" flymake-master-tex-init flymake-master-cleanup nil)
+     ("\\.tex\\'" flymake-simple-tex-init nil nil)
+     ("\\.idl\\'" flymake-simple-make-init nil nil))))
  '(org-agenda-files
    (quote
     ("~/org/gocd.org" "~/org/expenses.org" "~/org/video_project.org" "~/org/concepts.org")))
